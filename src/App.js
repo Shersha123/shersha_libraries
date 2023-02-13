@@ -1,3 +1,4 @@
+
 import './css/sb-admin-2.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,7 +21,7 @@ import BooksCorner from './BooksCorner';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/portal" element={<Portal/>} >
@@ -34,7 +35,7 @@ function App() {
             <Route path="bookscorner" element={<BooksCorner />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      
     </>
   );
 
